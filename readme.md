@@ -22,7 +22,7 @@
 [Docker-url]: https://www.docker.com//
 [Docker-image]: https://img.shields.io/badge/Docker-blue?style=for-the-badge&logo=Docker&logoColor=white
 
-## ``Continuidade de aplicação - Utilizando testes``
+## ``Continuidade de aplicação - Refresh Token & emails``
 
 ## Instruções para uso Docker:
 - docker-compose up
