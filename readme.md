@@ -66,7 +66,7 @@ Acessar: http://localhost:3333/api-docs/
 - Não deve ser possível cadastrar uma especificação já existente para o mesmo carro.
 - O usuário responsável pelo cadastro deve ser um usuário administrador.
 
-## RF/ RNF/ RN - Cadastro de imagens do carro
+## RF/ RNF/ RN - Cadastro de imagens do carro:
 **RF** - Requisitos funcionais
 - Deve ser possível cadastrar a imagem do carro.
 <!-- - Deve ser possível listar todos os carros. -->
@@ -78,7 +78,7 @@ Acessar: http://localhost:3333/api-docs/
 - O usuário deve poder cadastrar mais de uma imagem para o mesmo carro.
 - O usuário responsável pelo cadastro deve ser um usuário administrador.
 
-## RF/ RNF/ RN - Aluguel de carro
+## RF/ RNF/ RN - Aluguel de carro:
 **RF** - Requisitos funcionais
 - Deve ser possível cadastrar um aluguel.
 
@@ -89,7 +89,7 @@ Acessar: http://localhost:3333/api-docs/
 - O usuário deve estar logado na aplicação.
 - Ao realizar um aluguel, o status do carro deverá ser alterado para indisponível.
 
-## RF/ RNF/ RN - Devolução de carro
+## RF/ RNF/ RN - Devolução de carro:
 **RF** - Requisitos funcionais
 - Deve ser possível realizar a devolução de um carro
 
@@ -102,7 +102,7 @@ Acessar: http://localhost:3333/api-docs/
 - Caso haja multa, deverá ser somado ao total do aluguel.
 - O usuário deve estar logado na aplicação.
 
-## RF/ RNF/ RN - Listagem de alugueis para usuário
+## RF/ RNF/ RN - Listagem de alugueis para usuário:
 **RF** - Requisitos funcionais
 - Deve ser possível realizar a busca de todos os alugueis para o usuario
 
