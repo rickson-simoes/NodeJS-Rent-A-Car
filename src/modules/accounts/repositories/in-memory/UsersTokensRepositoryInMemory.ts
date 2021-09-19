@@ -1,0 +1,3 @@
+class UsersTokensRepositoryInMemory {}
+
+export { UsersTokensRepositoryInMemory };
