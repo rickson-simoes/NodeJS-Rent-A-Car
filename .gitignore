@@ -5,4 +5,4 @@ yarn.lock
 yarn-error.log
 tmp
 
-/.env
+/production.env
