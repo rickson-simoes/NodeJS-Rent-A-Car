@@ -24,8 +24,18 @@ describe("List Categories", () => {
   });
 
   afterAll(async () => {
-    await connection.dropDatabase();
-    await connection.close();
+    const dropDB = await connection.dropDatabase();
+    const connectionClose = await connection.close();
+    await new Promise((resolve) =>
+      setTimeout(
+        () =>
+          resolve({
+            dropDB,
+            connectionClose,
+          }),
+        500
+      )
+    );
   });
 
   it("Should be able to list all categories", async () => {
