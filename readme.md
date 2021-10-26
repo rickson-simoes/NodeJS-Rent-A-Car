@@ -91,7 +91,7 @@ Acessar: http://localhost:3333/api-docs/
 
 ## RF/ RNF/ RN - Devolução de carro:
 **RF** - Requisitos funcionais
-- Deve ser possível realizar a devolução de um carro.
+- Deve ser possível realizar a devolução de um carro
 
 **RN** - Regras de negócio
 - Se o carro for devolvido com menos de `24` horas, deverá ser cobrado diária completa.
