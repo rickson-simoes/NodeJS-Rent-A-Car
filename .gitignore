@@ -3,7 +3,8 @@ dist
 yarn.lock
 .vscode
 yarn-error.log
-tmp
+tmp/*
 
+!tmp/.gitkeep
 
 .env
