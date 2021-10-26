@@ -24,18 +24,8 @@ describe("Create Category Controller", () => {
   });
 
   afterAll(async () => {
-    const dropDB = await connection.dropDatabase();
-    const connectionClose = await connection.close();
-    await new Promise((resolve) =>
-      setTimeout(
-        () =>
-          resolve({
-            dropDB,
-            connectionClose,
-          }),
-        500
-      )
-    );
+    await connection.dropDatabase();
+    await connection.close();
   });
 
   it("Should be able to create a new category", async () => {
